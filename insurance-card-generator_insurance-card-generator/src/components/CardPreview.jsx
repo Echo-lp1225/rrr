@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './CardPreview.css';
-import { templates } from '../templates';
+import templates  from '../templates';
 
 function CardPreview({ cardData, template, isGenerating }) {
   const canvasRef = useRef(null);
